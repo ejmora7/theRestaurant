@@ -1,0 +1,1020 @@
+/****************************************************
+			HEADER
+****************************************************/
+
+* {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  
+}
+
+.h1, .h1 a {
+  font-family: "Fredericka the Great", cursive;
+  color: white;
+  font-size: 3rem; 
+  text-align: right;
+}
+
+.h1 a:link {
+  color: white;
+}
+
+.h1 a:visited {
+  color: white;
+}
+
+.h1 a:hover: {
+  font-weight: 900;
+  color: white;
+}
+
+.r {
+  font-size: 5rem;
+  font-family: "Fredericka the Great", cursive;
+}
+
+@media screen and (max-width: 1025px) {
+    .h1 {
+      text-align: center;
+    }
+}
+
+div.header_section {
+  min-height: 100vh;
+}
+
+.headnav {
+  width: 100%;
+}
+
+.headnav nav {
+  width: 100%;
+}
+
+nav ul {            
+  text-align: center; 
+  font-size: 1rem;
+  padding: 8.5% 0;
+  margin: 0;
+  max-height: 4rem;
+  min-height: 4rem;
+}
+
+@media screen and (max-width: 1025px) {
+    nav ul {
+      padding: 2% 0; 
+    }
+}
+
+.main_nav_list li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin: 0 5%;
+}
+
+@media screen and (max-width: 600px) {
+    .main_nav_list li {
+      list-style: none;
+      display: inline-block;
+      text-align: center;
+      margin: 0 3%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main_nav_list li {
+      list-style: none;
+      display: inline-block;
+      text-align: center;
+      margin: 0 2%;
+    }
+}
+
+.main_nav_list a {
+  font-family: "Fredericka the Great", cursive;
+  font-weight: 900;
+  color: white;
+}
+.main_nav_list a:link {
+  color:white;
+}
+.main_nav_list a:visited {
+  color: white;
+}
+
+.main_nav_list a:hover {
+  text-shadow: 0 0 1px lightgrey;
+  color: white;
+}
+
+.main_nav_list a:active {
+  text-shadow: none;
+  color: white;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index:-1;
+}
+
+/*-----------------------*
+	Contact Nav
+*------------------------*/
+
+
+.cnav, .cnav a {
+  color: black;
+}
+
+.cnav a:link {
+  color: black;
+}
+
+.cnav a:visited {
+  color: black;
+}
+
+.cul a {
+  font-family: "Fredericka the Great", cursive;
+  font-weight: 900;
+  color: black;
+}
+
+.cul a:link {
+  color: black;
+}
+.cul a:visited {
+  color: black;
+}
+
+.cul a:hover {
+  text-shadow: 0 0 1px lightgrey;
+  color: black;
+}
+
+.cul a:active {
+  text-shadow: none;
+  color: black;
+}
+
+
+
+/****************************************************
+			CONTENT NAV
+*****************************************************/
+
+.box4 {
+  background-color: black;
+  height: 70px;
+  position: relative;
+  top: -1px;              
+  color: white;
+}
+
+@media screen and (max-width: 1300px) {
+    .box4 {
+      position: relative;
+      top: -11px;
+    }
+}
+
+.middlenav {
+  position: relative;
+  top: 1px;
+}
+
+.middlenav ul {
+  padding: 0;
+  padding-top: 22px;
+}
+
+.middlenav li {
+  display: inline-block;
+  margin: 0 6%;
+}
+
+@media screen and (max-width: 600px) {
+    .middlenav li {
+      margin: 0 4%;
+      font-size: 0.8rem;
+    }
+}
+
+.middlenav li a {
+  color: white;
+}
+
+.middlenav a:link {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+}
+
+.middlenav a:visited {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+}
+
+.middlenav a:hover {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
+  
+}
+
+.middlenav a:active {
+  font-weight: 100;
+}
+
+/*----------------*
+  menu middle nav
+*----------------*/
+
+#menunav {
+  position: relative;
+  top: -20px;               
+}
+
+@media screen and (max-width:1300px) {
+    #menunav {
+      position: relative;
+      top: -2px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    #menunav {
+      position: relative;
+      top: -11px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    #menunav li{
+     margin: 0 3%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    #menunav li {
+     margin: 0 2%;
+     font-size: 0.9rem;
+     padding-bottom: 
+    }
+}
+ 
+@media screen and (max-width:600px) {
+    #menunav li {
+      margin: 0 0.5%;
+      font-size: 0.7rem;
+    }
+}
+
+/****************************************************
+			CONTENT
+ ****************************************************/
+
+.content_section {
+  padding: 10% 5%;
+}
+
+.box {
+  height: 25rem;
+  text-align: center;
+  margin: auto;
+}
+.aboutbox {                 /* try removing classes and changing id's to classes*/
+  height: 30rem;
+  text-align: center;
+  margin: auto;
+}
+
+.menubox {
+  height: 25rem;
+  text-align: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 1025px) {
+  .box {
+    height: 15rem;
+  }
+}
+
+.home_imgs {
+  width: 420px; 
+  padding: 2%%; 
+  margin-top: 5%;
+  box-shadow: 0px 0px 7px 0px lightgrey;
+}
+
+@media screen and (max-width: 1025px) {
+  .home_imgs {
+    max-width: 340px; 
+    padding: .5%; 
+    margin-top: 0%;
+    box-shadow: 0px 0px 7px 0px lightgrey;
+  }
+}
+
+.content_food_events {
+  padding-top: 7%;
+}
+
+.content_topic {
+  width:50%;
+  border: .1rem solid black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: black;
+  font-weight: 900;
+  font-size: 2rem;
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;  
+  padding: 0px;
+  margin: auto;
+  line-height: 100%;
+}
+
+p.content {s
+  border-right: none;
+  border-left: none;
+  color: black;
+  font-size: 1rem;
+  text-align: center;  
+  padding: 2%;
+  margin: 0;
+  width: 100%
+}
+
+#local {
+  width: 100%;
+  padding: 2%;
+}
+
+@media screen and (max-width: 1020px) {
+    #appleimg {
+      transform:translate(0,15rem);
+    }   
+}
+
+@media screen and (max-width: 600px) {
+    #appleimg {
+      transform:translate(0,20rem);
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #localbox {
+      transform:translate(0,-15rem);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #localbox {
+      height: 20rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #beginnings_fix {
+      height: 17rem;
+      text-align: center;
+      margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 1020px) {
+    #where_fix {
+      transform:translate(0,30rem);
+    }   
+}
+
+@media screen and (max-width: 600px) {
+    #where_fix {
+      transform:translate(0,20rem);
+      height: 17rem;
+      text-align: center;
+      margin: auto;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #now_fix {
+      transform:translate(0,-30rem);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #now_fix {
+      transform: translate(0,-17rem);
+      height: 20rem;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #chef_pic_fix {
+      transform:translate(0,30rem);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #chef_pic_fix {
+      height: 20rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #chef_pic_fix {
+      transform:translate(0,22rem);
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #chef_fix {
+      transform:translate(0,-30rem);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #chef_fix {
+      transform:translate(0,-20rem);
+      height: 22rem;
+    }
+}
+
+/*---------------------------
+	MENU Content
+-----------------------------*/
+
+.price {
+  font-style: italic;
+}
+
+@media screen and (max-width: 1020px) {
+    .menubox {
+      height: 22rem;
+      text-align: center;
+      margin: auto;
+    }
+}
+
+
+@media screen and (max-width: 1020px) {
+    #burger_pic_fix {
+      transform: translate(0,12rem);
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #burger_fix {
+      transform: translate(0,-22rem);
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #ribs_pic_fix {
+      transform: translate(0,13rem);
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #ribs_fix {
+      transform: translate(0,-22rem);
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #bbq_pic_fix {
+      transform: translate(0,13rem);
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #bbq_fix {
+      transform: translate(0,-22rem);
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #beef_pic_fix {
+      transform: translate(0,14rem);
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #beef_fix {
+      transform: translate(0,-22rem);
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #chick_pic_fix {
+      transform: translate(0,18rem);
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    #chick_fix {
+      transform: translate(0,-22rem);
+    }
+}
+
+/******************************************
+		CONTACT SECTION
+******************************************/
+
+#contact {
+  text-align: center;
+  font-size: 7rem;
+  letter-spacing: 1.5rem;
+  background-color: #f1f1f1;
+  border-top: 1px outset #cccccc;
+  padding: 5rem 0 0 0;
+}
+
+@media screen and (max-width: 1200px) {
+  #contact {
+    font-size: 5rem; 
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #contact {
+    font-size: 3rem; 
+  }
+}
+
+#con_description {
+  min-width: 300px;
+  letter-spacing: .2rem;
+  font-size: 1rem;
+}
+
+#txt {
+  max-height: 10rem;
+}
+
+#submit {
+  border: 2px solid #C06014;
+  font-size: 1rem; 
+  background-color: white;
+  color: #C06014;
+  width: 100px;
+  position: relative;
+  bottom: 50px;
+  right: 19.5rem;
+  box-shadow: none;
+  transition: width .7s, box-shadow 0.2s, bottom 3s, right 3s;
+}
+
+@media screen and (max-width: 1200px) {
+    #submit {
+      position: relative;
+      bottom: 30px;
+      right: 7rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #submit {
+      position: relative;
+      bottom: 30px;
+      right: 15rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #submit {
+      position: relative;
+      bottom: 30px;
+      right: 6.5rem;
+    }
+}
+
+#submit:hover {
+  width: 200px;
+  box-shadow: 0px 0px 1px 1px #C06014;
+
+}
+
+#submit:active {
+  width: 200px;
+  box-shadow: 0px 0px 0px 0px #C06014;
+ 
+}
+
+
+/**************************************************
+		LOCATIONS SECTION
+***************************************************/
+
+section#locate {
+  padding-bottom: 5rem;
+}
+
+#locate {
+  text-align: center;
+  background-color: #f1f1f1;
+  border-top: 1px outset #cccccc;
+}
+
+#locate h1 {
+  border-bottom: 2px solid black;
+  padding: 11rem 0 0 0 ;
+  font-size: 7rem;
+  letter-spacing: 1.5rem;
+  transition: font-size 1s, letter-spacing 1s;
+}
+
+@media screen and (max-width: 1025px) {
+    #locate h1 {
+      font-size: 5rem;
+      letter-spacing 1rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #locate h1 {
+      font-size: 3rem;
+      letter-spacing .5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #locate h1 {
+      font-size: 2rem;
+      letter-spacing .07rem;
+    }
+}
+
+#locate_div {
+  margin-bottom: 10rem;
+  transition: margin-bottom 1s;
+}
+
+@media screen and (max-width: 1025px) {
+    #locate_div {
+      margin-bottom: 7rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #locate_div {
+      margin-bottom: 5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #locate_div {
+      margin-bottom: 2rem;
+    }
+}
+
+.locationbox {
+  height: 22rem;
+  padding: 5rem 0 0 0; 
+}
+
+.locationbox p {
+  border-bottom: 2px solid black;
+  font-size: 1rem;
+  width: 200px;
+  margin: 0 auto 1rem auto;
+  letter-spacing: .25rem;
+}
+
+.locationbox ul {
+  width: 200px;
+  margin: auto;
+}
+
+.locationbox ul li {
+  list-style-type: none;
+}
+
+/****************************************************
+		Private Policy Section
+*****************************************************/
+
+.bkg {
+ width: 100%;
+ background-color: #f1f1f1; 
+ padding: 11rem 0;
+ transition: padding 1s;
+}
+
+@media screen and (max-width: 1100px) {
+    #bkg {
+      padding: 7rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #bkg {
+      padding: 3rem;
+    }
+}
+
+#policy {
+ background-color: white;
+ margin: auto;
+ box-shadow: 0px 0px 10px 1px lightgrey;
+}
+
+.policy_width {
+  width: 1000px;
+  margin: auto;
+  transition: width: 1s;
+}
+
+@media screen and (max-width: 1100px) {
+    .policy_width {
+      width: 700px
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .policy_width {
+      width: 500px
+      height: 15rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .policy_width {
+      width: 96%;
+    }
+}
+
+/************************************************
+		CAREERS
+*************************************************/
+
+.bkg h1, .bkg p {
+  text-align: justify;
+  width: 100%;
+  padding: 2rem;
+}
+
+.bkg p {
+  margin: 0 0 5% 0;
+}
+
+#application {
+  width: 70%;
+  margin: auto;
+}
+
+#submit2 {
+  background-color: white;
+  border: 2px solid #C06014;
+  color: #C06014;
+  font-weight: 900;
+  width: 100px;
+  box-shadow: 0 0 0 0 #C06014;
+  transition: width 1s; box-shadow 1s;
+}
+
+#submit2:hover {
+  width: 200px;
+  box-shadow: 0 0 5px 0 #C06014;
+}
+
+#submit2:active {
+  width: 190px;
+  box-shadow: 0 0 0px 0 #C06014;
+}
+
+/****************************************************
+			BOTTOM NAV
+ ****************************************************/
+
+.bottom_nav {
+  background-color: #C06014;
+  padding: 0;
+  margin: 0;
+}
+
+.navbox {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 70px;
+}
+
+.bottom_nav .navbox nav {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.bottom_nav .navbox ul {
+  text-align: center; 
+  font-size: 1rem;
+  padding: 20px;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.bottom_nav li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin: 0 6%;
+}
+
+@media screen and (max-width: 1200px) {
+    .bottom_nav li {
+      margin: 0 4%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .bottom_nav li {
+      font-size: .8rem;
+      margin: 0 3%
+    }
+}
+
+.bottom_nav a:link {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.bottom_nav a:visited {
+  color: white;
+}
+
+.bottom_nav a:hover {
+  color: white;
+  font-weight: 900;
+  
+  
+}
+
+.bottom_nav a:active {
+  color: white;
+  font-weight: 100;
+}
+
+/****************************************************
+			FOOTER
+ ****************************************************/
+
+.footer_section {
+  padding: 10% 2%;
+  background-color: #f2f2f4;
+  text-align: left;
+}
+
+.footer_section ul {
+  text-align: left;
+  margin: auto;
+}
+
+.opacity {
+  opacity: 0.7;
+}
+
+.width_fix {
+  min-width: 222px;  
+  max-width: 222px;
+}
+
+.footer_section li {
+  list-style: none; 
+}
+
+.footer_section a {
+  color: black;
+}
+
+.footer_section a:visited {
+  color: black;
+}
+
+.footer_section a:hover {
+  opacity: 0.9;
+  font-weight: 600;
+  color: black;
+}
+
+.footer_section a:active {
+  font-weight: 900;
+  color: black;
+}
+
+.list_title {
+  font-size: 1.25rem;
+  opacity: 0.7;
+  letter-spacing: .4rem;
+}
+
+.footerbox {
+  height: 14rem;
+  text-align: left;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {       /*when width is 600px and below */
+    .footerbox {
+      height: 9rem;
+      margin-top: 1.5rem;
+    }
+}
+
+.footerbox2 {
+  height: 14rem;
+  text-align: left;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {       /*when width is 600px and below */
+    .footerbox2 {
+      height: 12rem;
+    }
+}
+
+.footerbox3 {
+  height: 14rem;
+  text-align: left;
+  margin: auto;
+}
+
+.copyright {
+  background-color: #3a3a3a;;
+  padding:1.5% 0 0 0;
+  color: #f2f2f4;
+}
+
+.copyright ul {
+  list-style: none;
+  text-align: center;
+  padding: 1% 0;
+  height: 100%;
+}
+
+.copyright li {
+  display: inline-block;
+}
+
+.copyright a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.copyright a:visited {
+  color: #fff;
+}
+.copyright a:hover {
+  color: #C06014;
+}
+
+.copy::after {
+  content: " | ";
+}
+
+@media screen and (max-width:495px) {
+    .copy::after {
+      content: "";
+    }
+}
+
+.copyright a:active {
+  color: #e77518;
+}
+
+/* video section fix */
+.fix-container-section {
+  position: relative;
+}
+.fix-container-subnavigation {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100vh;
+}
+#menunav.fix-container-subnavigation {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100vh;
+}
+
+/*content section fix */
+
+.expanded.row.content_section {
+    position: relative;
+    top: 3rem;
+}
