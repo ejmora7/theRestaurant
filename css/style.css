@@ -1012,7 +1012,10 @@ section#locate {
   top: 100vh;
 }
 
-
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
 /*content section fix */
 
 .expanded.row.content_section {
