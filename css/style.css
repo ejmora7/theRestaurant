@@ -759,7 +759,7 @@ section#locate {
 *************************************************/
 
 .bkg h1, .bkg p {
-  text-align: justify;
+  text-align: center;
   width: 100%;
   padding: 2rem;
 }
